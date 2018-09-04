@@ -39,9 +39,9 @@
     "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t"
   },
   "sources": {
-    "openmaptiles": {
+    "openstreetmap": {
       "type": "vector",
-      "url": "https://a.tile.openstreetmap.org/{z}/{x}/{y}.png?access_token={key}"
+      "tiles": ["https://a.tile.openstreetmap.org/{z}/{x}/{y}.png?access_token={key}"]
     }
   },
   "sprite": "https://openmaptiles.github.io/osm-bright-gl-style/sprite",
